@@ -1,0 +1,7 @@
+#include <windows.h>
+
+// Application Icon (1 ensures it is the first icon in the PE resource section, picked up by Windows Explorer)
+1 ICON "app.ico"
+
+// 1 is CREATEPROCESS_MANIFEST_RESOURCE_ID, 24 is RT_MANIFEST
+1 24 "app.manifest"
